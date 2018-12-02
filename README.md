@@ -1,6 +1,8 @@
+#### How to run rest api endpoint:
+
 virtualenv env  
-env/bin/activate  
-pip install requirements.txt  
+. ./env/bin/activate  
+pip install -r requirements.txt  
 
 python manage.py makemigrations rest  
 python manage.py migrate rest  
