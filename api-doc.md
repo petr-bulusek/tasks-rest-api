@@ -67,7 +67,7 @@ Deletes the task of the given ID.
 Returns a list of subtasks of task :id
 
 ```
-> GET /tasks/:id/tasks
+> GET /tasks/:id/subtasks
 
 < 200 OK
 {
@@ -82,7 +82,7 @@ Returns a list of subtasks of task :id
 Creates a new subtask of task :id
 
 ```
-> POST /tasks
+> POST /tasks/:id/subtasks
 { label: string }
 
 < 201 Created
